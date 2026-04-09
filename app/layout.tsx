@@ -3,7 +3,7 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   title: "Sci-Fi Portfolio | Front-End Developer",
-  description: "Portfolio of a Front-End Developer with a stunning Sci-Fi UI design",
+  description: "Portfolio d'un devellopeur Front-End  avec un Sci-Fi UI design",
   keywords: ["portfolio", "front-end developer", "react", "next.js", "sci-fi"],
 }
 
