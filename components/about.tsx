@@ -6,7 +6,7 @@ import Image from "next/image"
 
 const highlights = [
   "1+ An Experience",
-  "10+ Projets Completed",
+  "10+ Projets Complete",
 ]
 
 export function About() {
@@ -27,10 +27,10 @@ export function About() {
           <Card className="gradient-border">
             <CardContent className="p-8">
               <div className="flex flex-col md:flex-row gap-8 items-start">
-                {/* Photo */}
+                {/* Photo de la section a propos */}
                 <div className="flex-shrink-0 mx-auto md:mx-0">
                   <div className="w-48 h-48 rounded-lg border-2 border-scifi-cyan/50 bg-scifi-bg-secondary flex items-center justify-center relative overflow-hidden group">
-                    {/* Image - shows when loaded, hidden on error */}
+                    {/* Image - montre quand apres chargement, cache apres une erreur */}
                     {!imageError && (
                       <img 
                         src="/costar.png" 
